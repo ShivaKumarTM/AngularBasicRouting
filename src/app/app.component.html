@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+  <mat-icon routerLink="/home">{{componetLabels?.appComHomeIcon}}</mat-icon>
+  <span routerLink="/home">{{componetLabels?.appComMyApp}}</span>
+  <span routerLink="/products" class="mar_left">{{componetLabels?.appComProdList}}</span>
+  <span class="spacer"></span>
+  <div>
+    <span routerLink="/login">{{componetLabels?.appComLogin}}</span>
+  </div>
+</mat-toolbar>
+<router-outlet></router-outlet>
